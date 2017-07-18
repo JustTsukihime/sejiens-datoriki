@@ -1,23 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Palanquin+Dark');
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+
+}
+
 .container{
-    padding: 20px;
+    padding: 2% 7% 2% 7%;
     background: rgba(255,255,255,0.9);
     width: 75%;
-    margin-top: 50px;
-    
 }
 
 body{
-    padding-top: 30px;
-    background: #c4e3eb;
+    background: #0D5226;
+    background-image: url("img/background.svg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
 }
 
 .banner{
-    margin: auto;
-    text-align: center;
+    margin: 0;
+    width: 100%;
 }
 
 .banner img{
-    height: 120px;
+  width: 100%;
 }
 
 h1{
@@ -25,63 +36,94 @@ h1{
     text-transform: uppercase;
 }
 
+h2{
+    font-size: 2em;
+    text-align: center;
+    color: #8D1C13;
+    font-family: 'Palanquin Dark', sans-serif;
+}
+h3{
+   font-size: 1.8em;
+   text-align: center; 
+}
+h4{
+   font-size: 1.2em;
+   text-align: center; 
+}
+
+#tipisks:hover{
+    color:rgb(150, 27, 30);
+}
+
 .navigation div{
     display: inline-block;
 }
 
-.navigation{
-    font-size: 20px;
+.menu{
+    font-size: 18px;
 /*    margin: auto;*/
     text-align: center;
-}
+    font-family: 'Palanquin Dark', sans-serif;
 
-.subtitle{
-    margin: 0px 10px 0px 10px;
-    font-size: 1.5em;
-/*    width: 10%;*/
-    min-width: 70px;
 }
+#main-menu{
+    background-color: #0D5226;
+    width: 100%;
 
-.navcontainer{
-    width: 20%;
 }
-
-.navright{
-    float:left;
-}
-.navleft{
-    float: right;
-}
-
-.navbutton{
-    border-bottom: 2px solid #000; 
-    line-height: 0.1em;
-    padding: 0px 20px 0px 20px;
-    
-}
-.navbutton a{
-    background: #c4e3eb;
-    padding:0 5px; 
+#main-menu  a{
+    color: white;
     text-decoration: none;
 }
-
-.navbutton a:link {
-    color: black;
-    text-decoration: none;
+#main-menu  a:hover{
+    color: lightblue;
+    text-underline: none;
 }
 
-.navbutton a:visited {
-    color: black;
-    text-decoration: none;
+#main-menu li{
+    font-size: 1.8em;
+    display: inline;
+    padding: 1%;
+}
+#top {
+    position: fixed;
+    right: 0px;
+    bottom: 15%;
+    background-color: rgba(255,255,255,0.7);
+    border: 1px solid #7c7c7c;
+    border-radius: 4px 0 0 4px;
 }
 
-.navbutton a:hover {
-    color: #8f1f00;
-    text-decoration: none;
+#top img{
+    width: 80px;
+}
+#top img:hover {
+    background-color: rgba(255,255,255,0.2);
 }
 
 
-.navbutton a:active {
-    color: #8f1f00;
-    text-decoration: none;
-} 
+.sponsors {
+    border-top: 1px solid #0D5226;
+    background-color: #0D5226;
+    bottom: 0;
+    width: 100%;
+}
+
+.sponsors img {
+    margin: 5px 0;
+    height: 60px;
+}
+
+.footer{
+    background: #0D5226;
+}
+
+
+hr{ 
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}

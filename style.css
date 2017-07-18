@@ -88,7 +88,8 @@ h4{
 }
 
 .sponsors img {
-    margin: 5px 0;
+    display:block;
+    margin: 5px auto;
     height: 60px;
 }
 

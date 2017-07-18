@@ -6,6 +6,45 @@
     background: rgba(255,255,255,0.9);
     width: 75%;
 }
+.container-fluid{
+    padding: 0;
+}
+
+.navbar .nav, .navbar .nav > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+    *zoom:1; /* hasLayout ie7 trigger */
+    vertical-align: top;
+    font-size: 1.2em;
+    color: white;
+
+}
+
+
+/* Link */
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: lightblue;
+}
+
+
+
+
+
+
+.navbar-default{
+    background-color: #0D5226;
+    border: none;
+}
+
+.navbar-inner {
+    text-align:center;
+
+}
 
 body{
     background: #0D5226;
@@ -49,36 +88,23 @@ h4{
     color:rgb(150, 27, 30);
 }
 
-.navigation div{
-    display: inline-block;
-}
-
-.menu{
+.nav{
     font-size: 18px;
 /*    margin: auto;*/
     text-align: center;
     font-family: 'Palanquin Dark', sans-serif;
 
 }
-#main-menu{
-    background-color: #0D5226;
-    width: 100%;
 
-}
-#main-menu  a{
+.nav  a{
     color: white;
     text-decoration: none;
 }
-#main-menu  a:hover{
+.nav  a:hover{
     color: lightblue;
     text-underline: none;
 }
 
-#main-menu li{
-    font-size: 1.8em;
-    display: inline;
-    padding: 1%;
-}
 #top {
     position: fixed;
     right: 0px;

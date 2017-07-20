@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Palanquin+Dark');
 
 
-.container{
+.main.container{
     padding: 2% 7% 2% 7%;
     background: rgba(255,255,255,0.9);
     width: 75%;
@@ -92,6 +92,12 @@ h4{
     padding: 1%;
 }
 
+
+.footer.container{
+    width:100%;
+    background: #0D5226;
+}
+
 .sponsors {
     border-top: 1px solid #0D5226;
     background-color: #0D5226;
@@ -105,11 +111,6 @@ h4{
     padding: 15px 0px;
     height: 90px;
 }
-
-.footer{
-    background: #0D5226;
-}
-
 
 hr{ 
   border: 0; 

@@ -60,6 +60,18 @@ h4{
     font-family: 'Palanquin Dark', sans-serif;
 
 }
+.links img {
+    display:block;
+    margin: 5px auto;
+    height: 60px;
+}
+.links p{
+    text-align: center;
+    font-weight: bold;
+}
+#sejiens{
+    color:#8D1C13;
+}
 #main-menu{
     background-color: #0D5226;
     width: 100%;

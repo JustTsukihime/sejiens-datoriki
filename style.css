@@ -45,20 +45,6 @@ h4{
 }
 .main-menu {
     width:100%;
-    padding:0;
-}
-.main-menu .navbar {
-    margin-bottom: 10px;
-}
-
-.main-menu .navbar-inner {
-    background-color: #0D5226;
-    border:none;
-}
-
-/*
-.main-menu {
-    width:100%;
     padding: 0;
 }
 .main-menu .navbar {
@@ -90,7 +76,7 @@ h4{
         line-height: 1.1em;
     }
 }
-
+/*
 @media screen and (min-width: 768px){
     #collapse-1 { width: 100%; overflow: hidden; }
     #collapse-1 ul { list-style: none; position: relative; float: left; display: block; left: 50%; }

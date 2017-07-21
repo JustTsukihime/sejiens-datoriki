@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Palanquin+Dark');
 
+
 .main.container{
     padding: 2% 7% 2% 7%;
     background: rgba(255,255,255,0.9);
@@ -43,57 +44,22 @@ h4{
    font-size: 1.2em;
    text-align: center; 
 }
-.main-menu {
-    width:100%;
-    padding: 0;
-}
-.main-menu .navbar {
-    margin-bottom:10px;
-}
-
-.main-menu .navbar-inner {
-    background-color: #0D5226;
-    border:none;
-}
-.main-menu .navbar-default .navbar-nav>li {
-    font-size:18px;
-}
-.main-menu .navbar-default .navbar-nav>li>a {
-    color:white;
-    text-align: center;
-    font-family: 'Palanquin Dark', sans-serif;
-    font-size:1.8em;
-}
-
-.main-menu .navbar-default .navbar-nav>li>a:hover,
-.main-menu .navbar-default .navbar-nav>li>a:focus{
-    color:lightblue;
-    text-decoration: none; 
-}
-
-@media screen and (max-width: 768px){
-    .main-menu .navbar-default .navbar-nav>li>a{
-        line-height: 1.1em;
-    }
-}
-@media screen and (min-width: 768px){
-    .main-menu .nav.navbar-nav {
-        width:100%;
-        display:inline-flex;
-        justify-content: center;
-    }
-}
-/*
-@media screen and (min-width: 768px){
-    #collapse-1 { width: 100%; overflow: hidden; }
-    #collapse-1 ul { list-style: none; position: relative; float: left; display: block; left: 50%; }
-    #collapse-1 ul li { position: relative; float: left; display: block; right: 50%; }
-}*/
 
 #tipisks:hover{
     color:rgb(150, 27, 30);
 }
 
+.navigation div{
+    display: inline-block;
+}
+
+.menu{
+    font-size: 18px;
+/*    margin: auto;*/
+    text-align: center;
+    font-family: 'Palanquin Dark', sans-serif;
+
+}
 .links img {
     display:block;
     margin: 5px auto;
@@ -106,6 +72,26 @@ h4{
 #sejiens{
     color:#8D1C13;
 }
+#main-menu{
+    background-color: #0D5226;
+    width: 100%;
+
+}
+#main-menu  a{
+    color: white;
+    text-decoration: none;
+}
+#main-menu  a:hover{
+    color: lightblue;
+    text-underline: none;
+}
+
+#main-menu li{
+    font-size: 1.8em;
+    display: inline;
+    padding: 1%;
+}
+
 
 .footer.container{
     width:100%;

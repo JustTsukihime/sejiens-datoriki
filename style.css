@@ -48,6 +48,12 @@ h4{
     width:100%;
     padding: 0;
 }
+#uzmanibu{
+    text-align: center;
+}
+#tipisks:hover{
+    color:rgb(150, 27, 30);
+}
 .main-menu .navbar {
     margin-bottom:10px;
 }
@@ -119,6 +125,13 @@ h4{
     padding: 15px 0px;
     height: 90px;
 }
+.tiekamies{
+    text-align: center;
+}
+.footer{
+    background: #0D5226;
+}
+
 
 hr{ 
   border: 0; 

@@ -2,9 +2,8 @@
 
 
 .main.container{
-    padding: 2% 7% 2% 7%;
-    background: rgba(255,255,255,0.9);
-    width: 75%;
+    padding: 2% 7%;
+    background: rgb(232, 243, 236);
 }
 
 body{

@@ -1,15 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Palanquin+Dark');
 
 .main.container{
-    padding: 2% 7%;
-    background: rgb(232, 243, 236);
-    width:75%;
-}
-
-@media screen and (max-width:768px){
-    .main.container{
-        width:90%;
-    }
+    padding: 2% 7% 2% 7%;
+    background: rgba(255,255,255,0.9);
+    width: 75%;
 }
 
 body{
@@ -89,6 +83,12 @@ h4{
         justify-content: center;
     }
 }
+/*
+@media screen and (min-width: 768px){
+    #collapse-1 { width: 100%; overflow: hidden; }
+    #collapse-1 ul { list-style: none; position: relative; float: left; display: block; left: 50%; }
+    #collapse-1 ul li { position: relative; float: left; display: block; right: 50%; }
+}*/
 
 #tipisks:hover{
     color:rgb(150, 27, 30);

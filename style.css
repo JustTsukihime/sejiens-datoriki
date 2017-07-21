@@ -4,6 +4,13 @@
 .main.container{
     padding: 2% 7%;
     background: rgb(232, 243, 236);
+    width:75%;
+}
+
+@media screen and (max-width:768px){
+    .main.container{
+        width:90%;
+    }
 }
 
 body{
@@ -59,6 +66,7 @@ h4{
     font-family: 'Palanquin Dark', sans-serif;
 
 }
+
 .links img {
     display:block;
     margin: 5px auto;

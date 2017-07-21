@@ -48,6 +48,9 @@ h4{
     width:100%;
     padding: 0;
 }
+.main-menu .navbar {
+    margin-bottom:10px;
+}
 
 .main-menu .navbar-inner {
     background-color: #0D5226;
@@ -67,6 +70,12 @@ h4{
 .main-menu .navbar-default .navbar-nav>li>a:focus{
     color:lightblue;
     text-decoration: none; 
+}
+
+@media screen and (max-width: 768px){
+    .main-menu .navbar-default .navbar-nav>li>a{
+        line-height: 1.1em;
+    }
 }
 
 @media screen and (min-width: 768px){

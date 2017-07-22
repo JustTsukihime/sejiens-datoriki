@@ -78,11 +78,11 @@ h4{
         line-height: 1.1em;
     }
     #collapse-1 {
-    width:100%;
-    position: absolute;
-    top:100%;
-    background: rgba(13, 82, 38,1);
-}
+        width:100%;
+        position: absolute;
+        top:100%;
+        background: rgba(13, 82, 38,1);
+    }
 }
 @media screen and (min-width: 768px){
     .main-menu .nav.navbar-nav {

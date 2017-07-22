@@ -51,9 +51,11 @@ h4{
     margin-bottom:10px;
 }
 
-.main-menu .navbar-inner {
-    background-color: #0D5226;
+.main-menu .navbar-inner {  
     border:none;
+}
+.main-menu .navbar-inner .navbar-header {
+    background-color: #0D5226;
 }
 .main-menu .navbar-default .navbar-nav>li {
     font-size:18px;
@@ -75,12 +77,21 @@ h4{
     .main-menu .navbar-default .navbar-nav>li>a{
         line-height: 1.1em;
     }
+    #collapse-1 {
+    width:100%;
+    position: absolute;
+    top:100%;
+    background: rgba(13, 82, 38,1);
+}
 }
 @media screen and (min-width: 768px){
     .main-menu .nav.navbar-nav {
         width:100%;
         display:inline-flex;
         justify-content: center;
+    }
+    .main-menu .navbar-inner {  
+        background: rgba(13, 82, 38,1);
     }
 }
 /*

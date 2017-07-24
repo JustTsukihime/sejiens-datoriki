@@ -57,6 +57,9 @@ h4{
 .main-menu .navbar-inner .navbar-header {
     background-color: #0D5226;
 }
+.main-menu .navbar-header button {
+    margin-right:15px;
+}
 .main-menu .navbar-default .navbar-nav>li {
     font-size:18px;
 }
@@ -73,7 +76,7 @@ h4{
     text-decoration: none; 
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
     .main-menu .navbar-default .navbar-nav>li>a{
         line-height: 1.1em;
     }
